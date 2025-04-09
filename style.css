@@ -1,11 +1,9 @@
-body {
+:root {
   width: 1440px;
-}
-
-* {
   margin: 0 auto;
   padding: 0;
 }
+
 .header-area {
   background-color: #fff;
 }
@@ -46,6 +44,8 @@ a {
 
 .cover-area {
   width: 1440px;
+  margin: 0 auto;
+  width: 100%;
 }
 .cover img {
   width: 100%;
@@ -53,13 +53,13 @@ a {
 }
 
 .cover-text {
-  width: 600px;
-  height: 400px;
+  width: 643px;
+  height: 443px;
   background-color: #fff3e3;
   padding: 50px 30px 20px;
   position: absolute;
   top: 200px;
-  left: 750px;
+  left: 870px;
 }
 
 .cover-text2 {
@@ -230,8 +230,8 @@ a {
   height: 48px;
   color: #fff;
   position: absolute;
-  top: 1610px;
-  left: 350px;
+  top: 1590px;
+  left: 420px;
 }
 
 .price-discount50a {
@@ -248,8 +248,8 @@ a {
   height: 48px;
   color: #fff;
   position: absolute;
-  top: 1610px;
-  left: 1000px;
+  top: 1590px;
+  left: 1030px;
 }
 
 .price-discount50b {
@@ -266,8 +266,8 @@ a {
   height: 48px;
   color: #fff;
   position: absolute;
-  top: 2080px;
-  left: 1000px;
+  top: 2060px;
+  left: 1030px;
 }
 
 .price-discount-newa {
@@ -284,8 +284,8 @@ a {
   height: 48px;
   color: #fff;
   position: absolute;
-  top: 1610px;
-  left: 1330px;
+  top: 1590px;
+  left: 1340px;
 }
 
 .price-discount-newb {
@@ -302,8 +302,8 @@ a {
   height: 48px;
   color: #fff;
   position: absolute;
-  top: 2080px;
-  left: 670px;
+  top: 2060px;
+  left: 730px;
 }
 .price-discount-newc {
   font-family: "Poppins", sans-serif;
@@ -319,8 +319,8 @@ a {
   height: 48px;
   color: #fff;
   position: absolute;
-  top: 2080px;
-  left: 1330px;
+  top: 2060px;
+  left: 1340px;
 }
 
 .products-area a {
@@ -534,6 +534,5 @@ footer {
   font-style: normal;
   font-size: 16px;
   color: #000;
-  margin-left: 50px;
   margin-bottom: 50px;
 }
